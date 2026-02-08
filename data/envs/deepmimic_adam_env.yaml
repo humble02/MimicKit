@@ -1,6 +1,6 @@
 env_name: "deepmimic"
 
-char_file: "/home/yaobicheng/MimicKit/data/assets/adam_pro/adam_pro.urdf"
+char_file: "/home/yaobicheng/MimicKit/data/assets/adam_pro/adam_pro.xml"
 camera_mode: "track"
 
 episode_length: 10.0 # seconds
@@ -32,7 +32,7 @@ key_bodies: ["toeLeft", "toeRight", "neckPitch_link", "wristYawLeft", "wristYawR
 contact_bodies: ["toeLeft", "toeRight"]
 #contact_bodies: ["left_knee_link", "left_ankle_pitch_link", "left_ankle_roll_link", "right_knee_link", "right_ankle_pitch_link", "right_ankle_roll_link", "left_elbow_link", "left_wrist_roll_link", "left_wrist_pitch_link", "left_wrist_yaw_link", "right_elbow_link", "right_wrist_roll_link", "right_wrist_pitch_link", "right_wrist_yaw_link"] # cartwheel
 
-motion_file: "/home/yaobicheng/MimicKit/adam_motion/pickup1.pkl"
+motion_file: "/home/yaobicheng/MimicKit/adam_motion/pnd_B19.pkl"
 
 joint_err_w: [
   1.0, 1.0, 1.0, 1.0, 0.6, 0.6, # Left Leg

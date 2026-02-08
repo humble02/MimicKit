@@ -260,3 +260,6 @@ Please also consider citing the relevant papers:
     booktitle = {SIGGRAPH Asia 2025 Conference Papers (SIGGRAPH Asia '25 Conference Papers)}
 }
 ```
+
+
+export LD_LIBRARY_PATH=/home/yaobicheng/miniconda3/envs/mimickit_gym/lib:$LD_LIBRARY_PATH
